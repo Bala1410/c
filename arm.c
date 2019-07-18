@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int num,sum=0,rem=0,temp;
 clrscr();
@@ -14,5 +14,6 @@ if(sum==num)
 printf("yes",num);
 else
 printf("no",num);
+  return 0;
 getch();
 }
